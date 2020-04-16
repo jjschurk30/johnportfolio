@@ -29,8 +29,8 @@ return (
 When I'm not learning or creating projects, I enjoy reading, learning new skills, and watching my beloved
 St. Louis Blues, Cardinals, and Billikens. I have a showcase of my work below as well as my blog posts that focus
 on my journey from day one of creating my first Hello World project to the present. Feel free to reach out to me with
-the LinkedIn and Github links at the bottom of the page or you can contact me directly at johnschurk@yahoo.com.
-Happy Coding!</p>
+at my <a href = "https://www.linkedin.com/in/john-schurk-89993271/">LinkedIn</a> and <a href = "https://github.com/jjschurk30">Github</a>  pages or you can contact me directly at
+johnschurk@yahoo.com. Happy Coding!</p>
 </div>
 
 <h1 className = "projectTitle">My Projects</h1>
