@@ -37,7 +37,7 @@ when they were my age. I wish I listened then, that would’ve made the down tim
 <p className = "blogContent">Anyway, on a humid June Friday night in St. Louis, I was at my brother Dan’s house. We
 were about to head out that night to the bars downtown because I wanted a distraction from all the noise and pain
 going on in my head. His roommate, also named Dan, is a computer programmer and at that time was still studying to
-get his degree. He heard my story and my whoa is no attitude and that my world is over, when he said this to me,
+get his degree. He heard my story and my whole doom and gloom attitude and that my world is over, when he said this to me,
 “Why don’t you just become a programmer”? I had thought about it before, but I told him, “It’s too hard”.
 I’ll always appreciate and respect him when Dan told me, “No John,
 programming is easy”.</p>

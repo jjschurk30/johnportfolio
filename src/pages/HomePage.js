@@ -26,9 +26,9 @@ return (
 <JohnSmileImg />
 <div  className = "intro">
 <p>I have knowledge in Javascript, React, and Node. I also have an intermediate level of knowledge in Java.
-When I'm not learning or creating projects, I enjoy reading, learning new skills, and watching my beloved
+When I'm not creating projects or learning, I enjoy reading, learning new skills, and watching my beloved
 St. Louis Blues, Cardinals, and Billikens. I have a showcase of my work below as well as my blog posts that focus
-on my journey from day one of creating my first Hello World project to the present. Feel free to reach out to me with
+on my journey from day one of creating my first Hello World project to the present. Feel free to reach out to me
 at my <a href = "https://www.linkedin.com/in/john-schurk-89993271/">LinkedIn</a> and <a href = "https://github.com/jjschurk30">Github</a>  pages or you can contact me directly at
 johnschurk@yahoo.com. Happy Coding!</p>
 </div>
