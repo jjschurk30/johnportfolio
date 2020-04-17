@@ -4,7 +4,7 @@ import Content from '../components/Content';
 import { Link } from 'react-router-dom';
 
 
-function PostOne(props) {
+function DawnOfANewDay(props) {
 
 return (
 
@@ -63,4 +63,4 @@ the rediscovery of who I was, who I  am, and who I wanted to become. That was th
 
 }
 
-export default PostOne;
+export default DawnOfANewDay;

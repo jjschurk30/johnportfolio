@@ -11,8 +11,8 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import BlogPage from './pages/BlogPage';
 import ResumePage from './pages/ResumePage';
-import PostOne from "./blogPosts/PostOne";
-
+import DawnOfANewDay from "./blogPosts/DawnOfANewDay";
+import OffTheBeatenPath from "./blogPosts/OffTheBeatenPath";
 
 
 
@@ -86,7 +86,9 @@ subTitle = {this.state.home.subTitle} />} text = {this.state.home.text} />
 
 <Route path = "/resume" render = {() => <ResumePage title = {this.state.resume.title} />} />
 
-<Route path="/postone" component={PostOne} />
+<Route path="/DawnOfANewDay" component={DawnOfANewDay} />
+
+<Route path="/OffTheBeatenPath" component={OffTheBeatenPath} />
 
 
 

@@ -52,12 +52,18 @@ johnschurk@yahoo.com. Happy Coding!</p>
 </a>
 </Col>
 </Row>
-</Container>
+
 
 <h1 className = "cardTitle">Recent Blog Posts</h1>
+
+
     <CardInfo />
+
+
     <Link className = "view" to ="/blog" style={{ textDecoration: 'none' }}><h6 className = "viewMore">View More ></h6>
     </Link>
+
+</Container>
 </Content>
 
  </div>

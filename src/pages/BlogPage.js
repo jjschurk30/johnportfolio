@@ -2,11 +2,11 @@ import React from 'react';
 import Content from '../components/Content';
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
-import PostOne from "../blogPosts/PostOne";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import DawnOfANewDay from "../blogPosts/DawnOfANewDay";
+import OffTheBeatenPath from "../blogPosts/OffTheBeatenPath";
 
 
 
@@ -27,19 +27,31 @@ function BlogPage(props)  {
 
                     <Container>
                     <Row>
+                    <Col xs={2} md={4}>
+                    <h5 className = "day">17</h5>
+                    </Col>
 
-                       <Col xs={6} md={4}>
+                    <Col>
+                    <Link to="/OffTheBeatenPath" style={{ textDecoration: 'none' }}>
+                    <p className = "blogTitle">Off The Beaten Path</p></Link>
+                    </Col>
+
+
+                    </Row>
+
+                    <Row>
+
+                       <Col xs={2} md={4}>
                        <h5 className = "day">11</h5>
                        </Col>
 
                        <Col>
-                       <Link to="/postone" style={{ textDecoration: 'none' }}>
+                       <Link to="/DawnOfANewDay" style={{ textDecoration: 'none' }}>
                        <p className = "blogTitle">Dawn of a New Day</p></Link>
-                       </Col>
-                       </Row>
 
 
-
+                        </Col>
+                          </Row>
 
                     </Container>
 
