@@ -48,6 +48,22 @@ function CardInfo() {
           </CardContent>
         </Card>
 
+                <Card>
+                  <CardContent>
+                    <Link to = "/TotalEclipse" style={{ color: '#000000' }}><Typography variant="p" component="h5">
+                      Total Eclipse
+                    </Typography></Link>
+                    <br />
+                    <Typography color="textSecondary">
+                     Difficult times suck, but coming out on the other side and living is worth all the pain.
+                    </Typography>
+                    <br />
+                    <Typography variant="body2" component="p"  color="textSecondary">
+                      April 18th, 2020
+                    </Typography>
+                  </CardContent>
+                </Card>
+
 </GridList>
     </div>
   );

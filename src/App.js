@@ -13,6 +13,7 @@ import BlogPage from './pages/BlogPage';
 import ResumePage from './pages/ResumePage';
 import DawnOfANewDay from "./blogPosts/DawnOfANewDay";
 import OffTheBeatenPath from "./blogPosts/OffTheBeatenPath";
+import TotalEclipse from "./blogPosts/TotalEclipse";
 
 
 
@@ -90,6 +91,7 @@ subTitle = {this.state.home.subTitle} />} text = {this.state.home.text} />
 
 <Route path="/OffTheBeatenPath" component={OffTheBeatenPath} />
 
+<Route path="/TotalEclipse" component={TotalEclipse} />
 
 
 <Footer />

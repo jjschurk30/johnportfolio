@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import DawnOfANewDay from "../blogPosts/DawnOfANewDay";
 import OffTheBeatenPath from "../blogPosts/OffTheBeatenPath";
-
+import TotalEclipse from "../blogPosts/TotalEclipse";
 
 
 function BlogPage(props)  {
@@ -27,6 +27,22 @@ function BlogPage(props)  {
 
                     <Container>
                     <Row>
+
+
+                    <Col xs={2} md={4}>
+                    <h5 className = "day">18</h5>
+                    </Col>
+
+                    <Col>
+                    <Link to="/TotalEclipse" style={{ textDecoration: 'none' }}>
+                    <p className = "blogTitle">Total Eclipse</p></Link>
+
+
+                    </Col>
+                    </Row>
+
+                    <Row>
+
                     <Col xs={2} md={4}>
                     <h5 className = "day">17</h5>
                     </Col>
