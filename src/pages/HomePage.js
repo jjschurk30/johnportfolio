@@ -11,7 +11,7 @@ import JohnSmileImg from '../components/JohnSmileImg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import CardInfo from '../components/CardInfo';
+
 
 
 
@@ -54,14 +54,6 @@ johnschurk@yahoo.com. Happy Coding!</p>
 </Row>
 
 
-<h1 className = "cardTitle">Recent Blog Posts</h1>
-
-
-    <CardInfo />
-
-
-    <Link className = "view" to ="/blog" style={{ textDecoration: 'none' }}><h6 className = "viewMore">View More ></h6>
-    </Link>
 
 </Container>
 </Content>

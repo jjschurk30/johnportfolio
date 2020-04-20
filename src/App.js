@@ -9,11 +9,7 @@ import Footer from './components/Footer';
 
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import BlogPage from './pages/BlogPage';
 import ResumePage from './pages/ResumePage';
-import DawnOfANewDay from "./blogPosts/DawnOfANewDay";
-import OffTheBeatenPath from "./blogPosts/OffTheBeatenPath";
-import TotalEclipse from "./blogPosts/TotalEclipse";
 
 
 
@@ -25,7 +21,6 @@ title: 'John Schurk',
 headerLinks: [
 { title: 'Home', path: '/' },
 { title: 'About', path: '/about' },
-{ title: 'Blog', path: '/blog' },
 { title: 'Resume', path: '/resume' }
 ],
 
@@ -38,9 +33,6 @@ about: {
 title: 'A Little More About Me.'
 },
 
-blog: {
-title: 'Read About my Coding Journey'
-},
 
 resume: {
 title: 'Full Resume'
@@ -67,7 +59,6 @@ return(
     <Nav className = "ml-auto"  >
     <Link className = "nav-link" to = "/" >Home</Link>
     <Link className = "nav-link" to="about">About</Link>
-    <Link className = "nav-link" to="blog">Blog</Link>
     <Link className = "nav-link" to="resume">Resume</Link>
 
 
@@ -83,15 +74,8 @@ subTitle = {this.state.home.subTitle} />} text = {this.state.home.text} />
 
 <Route path = "/about" render = {() => <AboutPage title = {this.state.about.title} />} />
 
-<Route path = "/blog" render = {() => <BlogPage title = {this.state.blog.title} />} />
 
 <Route path = "/resume" render = {() => <ResumePage title = {this.state.resume.title} />} />
-
-<Route path="/DawnOfANewDay" component={DawnOfANewDay} />
-
-<Route path="/OffTheBeatenPath" component={OffTheBeatenPath} />
-
-<Route path="/TotalEclipse" component={TotalEclipse} />
 
 
 <Footer />
